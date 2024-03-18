@@ -7,7 +7,7 @@ import LandingPage from 'pages/LandingPage';
 import ProjectPage from 'pages/ProjectPage';
 import ProjectDetailPage from 'pages/ProjectDetailPage';
 import TeamPage from 'pages/TeamPage';
-import DiscussProjectPage from 'pages/DiscussProjectPage';
+// import DiscussProjectPage from 'pages/DiscussProjectPage';
 import NotFoundPage from 'pages/NotFoundPage';
 
 import 'assets/css/styles.css';
@@ -19,7 +19,7 @@ function App() {
       <Route exact path="/project" component={ProjectPage} />
       <Route exact path="/project/:id" component={ProjectDetailPage} />
       <Route exact path="/team" component={TeamPage} />
-      <Route exact path="/discuss-project" component={DiscussProjectPage} />
+      // <Route exact path="/discuss-project" component={DiscussProjectPage} />
       <Route path="" component={NotFoundPage} />
     </Switch>
   );
